@@ -20,9 +20,14 @@
     /* align-items: center; */
     justify-content: center;
     height: 100vh;
-    margin: 0 110px;
+    /* margin: 0 110px; */
+    margin-top: 0;
+    margin-right: 110px;
+    margin-bottom: 120px;
+    margin-left: 110px;
     border-radius: 16px;
-    
+
+
 
     /* background-size: 1320px 600px; */
     /* display: flex;
@@ -56,4 +61,67 @@
     line-height: 95px;
     /* 131.944% */
     padding-left: 370px;
+}
+
+/* Offer section styles */
+.offer {
+    justify-content: center;
+}
+
+.offer-quantity .offer-details {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.offer-title p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.catagory h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+.catagoryimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.catagory img{
+    max-width: 100%;
+    height: auto;
+}
+/* midparty styles */
+.midparty{
+    background-image: url("../images/vector.png");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    height: 100vh;
+    margin-top: 110px;
+    margin-right: 110px;
+    margin-bottom: 120px;
+    margin-left: 110px;
+    border-radius: 16px;
+
 }
