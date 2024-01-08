@@ -305,8 +305,77 @@
     line-height: 32px;
     /* 160% */
 }
-.commingsooncontent .group{
+
+.commingsooncontent .group {
     width: 140px;
     height: 140px;
     margin-top: 20px;
+}
+
+/* Holiday section styles */
+.holidaysection {
+    width: 1320px;
+    height: 600px;
+    background: #FFF;
+}
+
+.start .news {
+    text-align: center;
+    color: #070211;
+}
+
+.start .headingholi {
+    text-align: center;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.headingholi span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.start .newsdetails {
+    width: 700px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* margin: 20px; */
+    padding: 0 200px;
+    /* 160% */
+}
+.holidayimages{
+    display: flex;
+    position: relative;
+}
+.girl{
+    position: absolute;
+    left: 992px;
+    top: 98px;
+}
+.fifty{
+    position: absolute;
+    left: 840px;
+    top: 120px;
+}
+.rectangle2{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+.box{
+    position: absolute;
+    left: 140px;
+    top: 100px;
 }
