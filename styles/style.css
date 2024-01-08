@@ -210,3 +210,103 @@
     line-height: 56px;
     text-transform: capitalize;
 }
+
+.addressbutton {
+    text-align: center;
+
+    border: 0;
+}
+
+.button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #F00;
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+/* comming soon section styles */
+.commingsoon {
+    width: 1600px;
+    height: 600px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.commingsooncontent .best1 {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 95px;
+    padding: 20px;
+
+}
+
+.commingsooncontent .heading1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 95px;
+    padding: 20px;
+}
+
+.commingsooncontent .dolor1 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    margin-left: 95px;
+    padding: 20px;
+    /* 160% */
+}
+
+.commingsooncontent .elips {
+    border: 10px solid red;
+    border-radius: 500px;
+    padding: 30px;
+}
+
+.commingsooncontent .headingthree {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.commingsooncontent .paragraph3 {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+.commingsooncontent .group{
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+}
